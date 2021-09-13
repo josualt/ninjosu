@@ -16,6 +16,7 @@ class Bootloader extends Phaser.Scene {
     this.registry.set('ballSpeed', 2)
     this.registry.set('paddleSpeed', 3)
     this.registry.set('winScore', 2)
+    this.load.image("ninjosu", './assets/images/ninjosu.png')
   }
 }
 
